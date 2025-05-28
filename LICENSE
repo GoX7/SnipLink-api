@@ -1,38 +1,38 @@
 Copyright (c) [2025] [GoX7]
 
-Данная лицензия разрешает любому лицу, получившему копию данного программного обеспечения 
-и сопутствующей документации, безвозмездно использовать, копировать, изменять, объединять, 
-публиковать, распространять, сублицензировать и/или продавать копии ПО при соблюдении 
-следующих условий:
+This license authorizes anyone who receives a copy of this software
+and related documentation to use, copy, modify, combine,
+publish, distribute, sublicense, and/or sell copies of the Software free of charge, subject
+to the following conditions:
 
-1. Уведомление об авторских правах и данная лицензия должны быть включены во все копии 
-   или существенные части ПО.
+1. The copyright Notice and this license must be included in all copies. 
+   or essential parts of the software.
 
-2. ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ...
+2. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY GUARANTEES...
 
 
-ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ:
+DISCLAIMER OF LIABILITY:
 
-1. Общие положения:
-Настоящий API предоставляется на условиях «как есть» (AS IS).
-Разработчики и правообладатели не дают никаких гарантий относительно его работоспособности, безопасности и соответствия вашим целям.  
+1. General provisions:
+This API is provided on an "AS is" basis.
+The developers and copyright holders do not give any guarantees regarding its operability, safety and compliance with your goals.  
 
-2. Отсутствие гарантий:
-Явно отвергаются все гарантии, включая, но не ограничиваясь:  
-- гарантиями коммерческой пригодности;
-- гарантиями отсутствия ошибок;  
-- гарантиями безопасности** и защиты от уязвимостей.  
+2. Lack of guarantees:
+All warranties are expressly disclaimed, including but not limited to:  
+- guarantees of commercial suitability;
+- guarantees of the absence of errors;  
+- guarantees of security** and protection against vulnerabilities.  
 
-3. Ограничение ответственности: 
-Ни при каких обстоятельствах разработчики или правообладатели не несут ответственности за:  
-- прямые или косвенные убытки;  
-- утрату данных, прибыли, репутации;  
-- последствия, вызванные использованием или невозможностью использования API.  
+3. Limitation of liability: 
+Under no circumstances will the developers or copyright holders be liable for:
+- direct or indirect damages;  
+- loss of data, profits, reputation;  
+- consequences caused by the use or inability to use the API.  
 
-4. Принятие рисков*:
-Используя данный API, вы подтверждаете, что:  
-- осознаёте все возможные риски;  
-- единолично несёте ответственность за последствия его применения;  
-- отказываетесь от любых претензий к авторам и сопровождающим проекта.  
+4. Taking risks*:
+By using this API, you confirm that:  
+- are you aware of all possible risks;  
+- you are solely responsible for the consequences of its use;  
+- you waive any claims against the authors and maintainers of the project.  
 
-(Дата последнего обновления: 28.05.2025)
+(Last updated: 05/28/2025)
