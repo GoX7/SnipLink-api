@@ -1,0 +1,8 @@
+path: 
+  server_log: "logs/server.log" #only through "/"...
+  sqlite_log: "logs/sqlite.log"
+  mw_log:     "logs/mw.log"
+server:
+  addr:       "0.0.0.0:8080"
+  wto:        5s #Write time out
+  rto:        10s #Read time out
