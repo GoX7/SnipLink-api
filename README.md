@@ -20,6 +20,24 @@
 
 ---
 
+## Installation
+1. Clone the repository
+   ```
+   git clone https://github.com/GoX7/SnipLink-api
+   ```
+2. Navigate into it
+   ```
+   cd SnipLink-api
+   ```
+3. Install dependencies
+   ```
+   go mod download
+   ```
+4. Run the server
+   ```
+   go run main.go
+   ```
+
 ## API Endpoints  
 **Check API Status**  
 ```http 
@@ -40,7 +58,7 @@ Content-Type: application/json
 ```
 
 ## Configuration
-```yaml
+```
 path: 
   server_log: "logs/..."
   sqlite_log: "logs/..."
