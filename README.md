@@ -1,37 +1,39 @@
-# SnipLink API - REST сервис для сокращения ссылок на Go  
+Here’s the translation of your text into English:
+
+# SnipLink API - REST service for shortening links in Go  
 
 [![Go Version](https://img.shields.io/badge/Go-1.21+-blue)](https://golang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/GoX7/SnipLink-api/go.yml)](https://github.com/GoX7/SnipLink-api/actions)
 
-**🔥 Основные аспекты:**  
-- ✂️ Создание коротких ссылок  
-- 🔀 Редирект по алиасам  
-- 🧩 Простая интеграция  
-- 📝 Комментированный код  
+**🔥 Key Features:**  
+- ✂️ Creating short links  
+- 🔀 Redirecting by aliases  
+- 🧩 Easy integration  
+- 📝 Well-commented code  
 
-**🛠 Технологии:**  
+**🛠 Technologies:**  
 `github.com/go-chi/chi/v5` `github.com/go-playground/validator`  
 `github.com/ilyakaznacheev/cleanenv` `log/slog` `database/sql`  
 
-**ℹ️ Версия:** 1.0.0  
-**👤 Автор:** GoX7  
-**📜 Лицензия:** MIT (файл LICENSE)  
+**ℹ️ Version:** 1.0.0  
+**👤 Author:** GoX7  
+**📜 License:** MIT (LICENSE file)  
 
 ---
 
-## 🌐 API Endpoints  
-**Проверка работы API**  
+## API Endpoints  
+**Check API Status**  
 ```http 
 GET / 
 ```
-Перейти по короткой ссылке
-``` http
+**Redirect to short link**  
+```http
 GET /l/{alias}
 ```
 
-Создать короткую ссылку
-``` http
+**Create a short link**  
+```http
 Content-Type: application/json
 
 {
@@ -39,34 +41,34 @@ Content-Type: application/json
 }
 ```
 
-## Конфигурация
-``` yaml
+## Configuration
+```yaml
 path: 
   server_log: "logs/..."
   sqlite_log: "logs/..."
   mw_log:     "logs/..."
 server:
   addr:       "host:port"
-  wto:        10s #write time out
-  rto:        10s #read time out
+  wto:        10s # write time out
+  rto:        10s # read time out
 logger:
-  level:      "" #debug, info, warn, error
+  level:      "" # debug, info, warn, error
 ```
 
-## Структура
+## Structure
 ```
 .
 ├── config/
-│   └── config.yaml         # Настройка конфигурации
+│   └── config.yaml         # Configuration settings
 ├── internal/
-│   ├── config              # Конфигурация
-│   ├── controlers          # HTTP обработчики
-│   ├── logger              # Логгер
-│   └── sqlite              # Работа с БД
+│   ├── config              # Configuration
+│   ├── controllers         # HTTP handlers
+│   ├── logger              # Logger
+│   └── sqlite              # Database operations
 ├── pkg/
-│   ├── response            # Помощник в json ответах
-│   └── mw_logger           # Логирование запросов
+│   ├── response            # JSON response helper
+│   └── mw_logger           # Request logging
 ├── go.mod
 ├── go.sum
-└── main.go  # Entry point
+└── main.go                 # Entry point
 ```
