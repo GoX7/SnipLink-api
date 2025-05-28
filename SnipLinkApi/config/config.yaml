@@ -1,0 +1,10 @@
+path: 
+  server_log: "logs/server.log"
+  sqlite_log: "logs/sqlite.log"
+  mw_log:     "logs/mw.log"
+server:
+  addr:       "0.0.0.0:8080"
+  wto:        5s 
+  rto:        10s t
+logger:
+  level:      "debug"
