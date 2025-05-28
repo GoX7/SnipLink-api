@@ -1,5 +1,3 @@
-Here’s the translation of your text into English:
-
 # SnipLink API - REST service for shortening links in Go  
 
 [![Go Version](https://img.shields.io/badge/Go-1.21+-blue)](https://golang.org/)
